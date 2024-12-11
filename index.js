@@ -6,7 +6,7 @@ var rosyTowerCoordinates = [80.2486, 13.0559];
 // Initialize the map
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v12',
+    style: 'mapbox://styles/mapbox/satellite-streets-v12',
     center: rosyTowerCoordinates,
     zoom: 15,
     pitch: 60,
